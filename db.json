@@ -1,0 +1,78 @@
+{
+    "id": "0",
+    "title": "root - not displayed",
+    "children": [
+      {
+        "id": "1",
+        "title": "Cert1",
+        "children": [
+          {
+            "id": "11",
+            "title": "Cert 1-1",
+            "children": [
+              {
+                "id": "111",
+                "title": "Cert 1-1-1",
+                 "children": [
+              {
+                "id": "1111",
+                "title": "Cert 1-1-1-1"
+              },
+              {
+                "id": "112",
+                "title": "Cert 1-1-1-2"
+              }
+            ]
+              },
+              {
+                "id": "112",
+                "title": "Cert 1-1-2"
+              }
+            ]
+          },
+          {
+            "id": "12",
+            "title": "Cert 1-2",
+            "children": [
+              {
+                "id": 121,
+                "title": "Cert 1-2-1"
+              },
+              {
+                "id": "122",
+                "title": "Cert 1-2-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Cert 2",
+        "children": [
+          {
+            "id": "21",
+            "title": "Cert 2-1"
+          },
+          {
+            "id": "22",
+            "title": "Cert 2-2"
+          }
+        ]
+      },
+       {
+        "id": "3",
+        "title": "Cert 3",
+        "children": [
+          {
+            "id": "31",
+            "title": "Cert 3-1"
+          },
+          {
+            "id": "33",
+            "title": "Cert 3-2"
+          }
+        ]
+      }
+    ]
+  }
