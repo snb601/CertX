@@ -1,78 +1,111 @@
 {
-    "id": "0",
-    "title": "root - not displayed",
-    "children": [
-      {
-        "id": "1",
-        "title": "Cert1",
-        "children": [
+  "version": "1",
+  "type": "RESPONCE",
+  "user_id": "1000",
+  "resp": [
+    {
+      "cmd_id": "2",
+      "resp_data": {
+        "cmd_string": "CMD_RSP_GET_TREES",
+        "tree_data": [
           {
-            "id": "11",
-            "title": "Cert 1-1",
+            "cert_id": "1",
+            "title": "ROOT CA1",
+            "cert_level": 1,
+            "can_sign": false,
             "children": [
               {
-                "id": "111",
-                "title": "Cert 1-1-1",
-                 "children": [
-              {
-                "id": "1111",
-                "title": "Cert 1-1-1-1"
+                "cert_id": "11",
+                "title": "OP Cert1-1",
+                "cert_level": 2,
+                "can_sign": false,
+                "children": [
+                  {
+                    "cert_id": "111",
+                    "title": "DLCA Cert1-1-1",
+                    "cert_level": 3,
+                    "can_sign": false,
+                    "children": [
+                      {
+                        "cert_id": "1111",
+                        "title": "DL Cert 1-1-1-1",
+                        "cert_level": 4,
+                        "can_sign": false
+                      },
+                      {
+                        "cert_id": "1112",
+                        "title": "DL Cert 1-1-1-2",
+                        "cert_level": 4,
+                        "can_sign": false
+                      }
+                    ]
+                  },
+                  {
+                    "cert_id": "112",
+                    "title": "NM Entity Cert 1-1-2",
+                    "cert_level": 3,
+                    "can_sign": false
+                  }
+                ]
               },
               {
-                "id": "1112",
-                "title": "Cert 1-1-1-2"
-              }
-            ]
-              },
-              {
-                "id": "112",
-                "title": "Cert 1-1-2"
+                "cert_id": "12",
+                "title": "MFG Cert 1-2",
+                "cert_level": 2,
+                "can_sign": false,
+                "children": [
+                  {
+                    "cert_id": "121",
+                    "title": "BC Cert 1-2-1",
+                    "cert_level": 3,
+                    "can_sign": false
+                  },
+                  {
+                    "cert_id": "122",
+                    "title": "BC Cert 1-2-2",
+                    "cert_level": 3,
+                    "can_sign": false
+                  }
+                ]
               }
             ]
           },
           {
-            "id": "12",
-            "title": "Cert 1-2",
+            "cert_id": "2",
+            "title": "ROOT CA  2",
+            "cert_level": 1,
             "children": [
               {
-                "id": "121",
-                "title": "Cert 1-2-1"
+                "cert_id": "21",
+                "title": "OP Cert 2-1",
+                "cert_level": 2
               },
               {
-                "id": "122",
-                "title": "Cert 1-2-2"
+                "cert_id": "22",
+                "title": "BC Cert 2-2",
+                "cert_level": 2
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "title": "Cert 2",
-        "children": [
-          {
-            "id": "21",
-            "title": "Cert 2-1"
           },
           {
-            "id": "22",
-            "title": "Cert 2-2"
-          }
-        ]
-      },
-       {
-        "id": "3",
-        "title": "Cert 3",
-        "children": [
-          {
-            "id": "31",
-            "title": "Cert 3-1"
-          },
-          {
-            "id": "32",
-            "title": "Cert 3-2"
+            "cert_id": "3",
+            "title": "ROOT CA 3",
+            "cert_level": 1,
+            "children": [
+              {
+                "cert_id": "31",
+                "title": "OP Cert 3-1",
+                "cert_level": 2
+              },
+              {
+                "cert_id": "32",
+                "title": "OP Cert 3-2",
+                "cert_level": 2
+              }
+            ]
           }
         ]
       }
-    ]
-  }
+    }
+  ]
+}
